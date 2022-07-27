@@ -3,7 +3,6 @@ sudo: required
 services: docker
 
 before_install:
-  - docker login -u "kshintani" -p "dckr_pat_vEfmks3050PC1uWrq7efam4oCiI"
   - docker-compose up --build -d
 
 script:
